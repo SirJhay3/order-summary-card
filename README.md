@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/SirJhay3/order-summary-card
-- Live Site URL: https://stupefied-wozniak-884e70.netlify.app/
+- Live Site URL: https://laughing-benz-4ad758.netlify.app/
 
 ## My process
 
