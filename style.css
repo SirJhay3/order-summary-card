@@ -31,6 +31,7 @@ body {
 
 main {
     width: 375px;
+    max-width: 90%;
     height: 520px;
     margin: 2em auto 7em;
 }
@@ -72,7 +73,7 @@ main {
     justify-content: space-between;
     margin-bottom: 1em;
     border-radius: 20px;
-    padding: 1.5em;
+    padding: 1em;
     background-color: var(--very-pale-blue);
 }
 
@@ -119,6 +120,7 @@ main {
     cursor: pointer;
     border: none;
     width: 300px;
+    max-width: 100%;
 }
 
 .proceed:hover {
@@ -143,4 +145,20 @@ main {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media  screen and (max-width:320px) {
+    main {
+        margin: 2em auto 1em;
+    }
+    .hero-container {
+        height: 150px;
+    }
+    .order-container {
+        padding: 1em;
+        height: auto;
+    }
+    .orders {
+        padding: .5em;
+    }
 }
